@@ -9,8 +9,8 @@ wget https://github.com/keywork/CTERAChronicleCollector/raw/main/portal-usage-co
 	crontab -l
 
 You should see:
-	[ctera@portal ~]$ crontab -l
 
+	[ctera@portal ~]$ crontab -l
 	* * * * * /usr/local/ctera/bin/portal-usage-collector # Generates reports if older than 7 Days
 	* * */7 * * /usr/local/ctera/bin/portal-usage-collector --collect # Store portal reports in $tomcatlogs/usage_report
 
