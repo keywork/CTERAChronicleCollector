@@ -2,9 +2,11 @@
 Portal Usage Report Collector Installation
 wget https://github.com/keywork/CTERAChronicleCollector/raw/main/portal-usage-collector.zip
 1. Place the portal-usage-collector binary in /usr/local/ctera/bin/
-2. As the root user, run: portal-usage-collector --setup
-3. Modify the contents of /home/ctera/.env to match your SDK login details using a R/W Admin user.
-4. Check that the crontabs were properly added:
+2. As the root user, run:
+
+       portal-usage-collector --setup
+4. Modify the contents of /home/ctera/.env to match your SDK login details using a R/W Admin user.
+5. Check that the crontabs were properly added:
   
 	
  	
