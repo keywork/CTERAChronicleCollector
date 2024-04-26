@@ -5,6 +5,7 @@ wget https://github.com/keywork/CTERAChronicleCollector/raw/main/portal-usage-co
 
        cd /usr/local/ctera/bin/
        wget https://github.com/keywork/CTERAChronicleCollector/raw/main/portal-usage-collector.zip
+2. Unzip the file and remove .zip
 3. As the root user, run:
 
        portal-usage-collector --setup
