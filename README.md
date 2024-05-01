@@ -1,6 +1,7 @@
 # CTERAChronicleCollector
 Portal Usage Report Collector Installation
-wget https://github.com/keywork/CTERAChronicleCollector/raw/main/portal-usage-collector.zip
+
+       wget https://github.com/keywork/CTERAChronicleCollector/raw/main/portal-usage-collector.zip
 1. Place the portal-usage-collector binary in /usr/local/ctera/bin/
 
        cd /usr/local/ctera/bin/
