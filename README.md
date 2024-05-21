@@ -9,6 +9,7 @@ Portal Usage Report Collector Installation
 2. Unzip the file and remove .zip
 3. As the root user, run:
 
+       chmod +x portal-usage-collector
        portal-usage-collector --setup
 4. Modify the contents of /home/ctera/.env to match your SDK login details using a R/W Admin user.
 5. Check that the crontabs were properly added:
