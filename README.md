@@ -7,7 +7,7 @@ Place the portal-usage-collector binary in /usr/local/ctera/bin/ of any CTERA po
  	cd /usr/local/ctera/bin/
 	wget https://github.com/keywork/CTERAChronicleCollector/raw/main/portal-usage.zip
 	unzip portal-usage.zip
-	rm portal-usage.zip
+	rm -f portal-usage.zip
 	chmod +x portal-usage-collector
 	portal-usage-collector --setup
 
